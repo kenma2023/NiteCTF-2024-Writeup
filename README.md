@@ -20,7 +20,7 @@
 - **Explanation:**
 	- [JWT Resource](https://jwt.io/introduction)
 
-### Web - Tammy's Tantrums(Unsolved)
+### Web - Tammy's Tantrums(solved)
 #nosql
 - You can register and login and get this screen to upload posts 
 	- ![|284](attachments/Pasted%20image%2020241218143453.png)
