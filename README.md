@@ -47,4 +47,5 @@
 - Implementation:
 	- send "DELETE" requests to this endpoint ![](attachments/Pasted%20image%2020241218181835.png)
 	- When we get Error 403 we've found a substring of the flag, the system just won't give it to us directly since we're the wrong user ![](attachments/Pasted%20image%2020241226195909.png)
+- Flag - nite{bl1nd_m0ng0d8_1nj3ct10n_ftw}
 [Official Writeups + Source Code](https://github.com/Cryptonite-MIT/niteCTF-2024)
