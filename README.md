@@ -13,9 +13,9 @@
 	- ENV JWT_SECRET_KEY=H6jga21h1
 	- ENV FDRP_JWT_SECRET_KEY=wEdAeLdjae
 - After logging in it's good practice to check if anything changed and indeed there's a session token in "Storage --> Local Storage" but most often I see them in "Storage --> Cookies"
-- We know it's a Flask app now, so you can decode that token and you'll need to use a resource for it, so **now** the challenge should let you use other resources 
+- We know it's a Flask app now, so you can decode that token to see if there's anything useful and you'll need to use a resource for it, so **now** the challenge should let you use other resources 
 	- For future mileage I recommend using the [burpsuite extension for JWT tokens](https://portswigger.net/burp/documentation/desktop/testing-workflow/session-management/jwts)
-- So keep the standard token, sign it, then resend the **GET /api/notes** request to load up your new notes and voila 
+- Decoding it only yields the algo, but with a secret key we can sign it. So keep the standard token, sign it, then resend the **GET /api/notes** request to load up your new notes and voila 
 - Flag - nite{7rY_XKcD_S3b_f0R_3xPl4nA7i0n}
 - **Explanation:**
 	- [JWT Resource](https://jwt.io/introduction)
